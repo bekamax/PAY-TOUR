@@ -634,9 +634,8 @@ strong {
 @media (min-width: 768px) {
   .search-form__wrapper {
     display: inline-flex;
-
+    align-items: flex-end;
     column-gap: 0;
-
     -webkit-column-gap: 0;
     -moz-column-gap: 0;
     row-gap: 0;
