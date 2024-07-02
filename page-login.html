@@ -8,12 +8,11 @@
     <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
     <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
     <link rel="manifest" href="site.webmanifest" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="preload"
-      href="fonts/opensans-regular.woff2"
-      as="font"
-      type="font/woff2"
-      crossorigin
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
     />
     <link rel="stylesheet" href="style/vendor-bundle.css" />
     <link rel="stylesheet" href="style/main.css" />
@@ -66,9 +65,7 @@
             </div>
             <div class="burger">
               <button class="btn-reset burger__btn" aria-label="Меню">
-                <svg width="28" height="18" aria-hidden="true">
-                  <use xlink:href="img/sprite.svg#icon-burger"></use>
-                </svg>
+                <img src="./img/burger.png" width="28px" height="18px" />
               </button>
               <div id="dropdown" class="burger__dropdown">
                 <div class="burger__dropdown-bg">
@@ -294,7 +291,7 @@
 
                 <a class="logo logo--footer" href="/">
                   <img
-                    src="./img/logo-footer.png"
+                    src="./img/logo.png"
                     width="289"
                     height="75"
                     alt="Логотип PAY TOUR"
@@ -306,6 +303,5 @@
       </footer>
     </div>
   </body>
-  <script src="js/vendor-bundle.js"></script>
-  <script src="./JS/main.js" type="module"></script>
+  <script src="./JS/main.js"></script>
 </html>
