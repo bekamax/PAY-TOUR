@@ -1173,7 +1173,6 @@ strong {
 }
 
 @media (min-width: 768px) {
-
   .questions-form__input,
   .questions-form__btn {
     max-width: 300px;
@@ -1181,7 +1180,6 @@ strong {
 }
 
 @media (min-width: 992px) {
-
   .questions-form__input,
   .questions-form__btn {
     max-width: 580px;
@@ -1401,7 +1399,6 @@ strong {
 }
 
 @media (min-width: 992px) {
-
   .booking-form__btn svg,
   .booking-form__btn img {
     width: 46px;
@@ -1420,6 +1417,16 @@ strong {
   .booking-form__subtitle {
     font-size: 24px;
   }
+}
+
+.overlow {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 3;
+  display: none;
+  top: 0;
+  left: 0;
 }
 
 .burger {
@@ -4062,7 +4069,6 @@ strong {
 }
 
 @media (min-width: 1200px) {
-
   .detailed-hero__button-prev,
   .detailed-hero__button-next {
     width: 62.7px;
@@ -4513,7 +4519,6 @@ strong {
 }
 
 @media (min-width: 992px) {
-
   .rooms-card__cancel svg,
   .rooms-card__cancel img {
     width: 40px;
@@ -4853,7 +4858,6 @@ strong {
 }
 
 @media (min-width: 992px) {
-
   .rooms-features--booking .rooms-features__item svg,
   .rooms-features--booking .rooms-features__item img {
     width: 30px;
@@ -4885,7 +4889,6 @@ strong {
 }
 
 @media (min-width: 992px) {
-
   .rooms-features__item svg,
   .rooms-features__item img {
     width: 23px;
@@ -4930,7 +4933,6 @@ strong {
 }
 
 @media (min-width: 992px) {
-
   .rooms-features__item--big img,
   .rooms-features__item--big svg {
     width: 40px;
@@ -4971,8 +4973,10 @@ strong {
   height: 100%;
   padding: 23px 0 20px 0;
 
-  -o-border-image: fill 0 linear-gradient(var(--card-background), var(--card-background));
-  border-image: fill 0 linear-gradient(var(--card-background), var(--card-background));
+  -o-border-image: fill 0
+    linear-gradient(var(--card-background), var(--card-background));
+  border-image: fill 0
+    linear-gradient(var(--card-background), var(--card-background));
 
   --card-background: rgba(0, 0, 0, 0.5);
 }
@@ -5317,7 +5321,6 @@ strong {
 }
 
 @media (min-width: 768px) {
-
   .detailed-gallery__list li:nth-child(6n + 1),
   .detailed-gallery__list li:nth-child(6n + 2) {
     grid-column: 3 span;
@@ -5331,7 +5334,6 @@ strong {
 }
 
 @media (min-width: 768px) {
-
   .detailed-gallery__list li:nth-child(6n + 3),
   .detailed-gallery__list li:nth-child(6n + 4) {
     grid-column: 6 span;
@@ -5346,7 +5348,6 @@ strong {
 }
 
 @media (min-width: 768px) {
-
   .detailed-gallery__list li:nth-child(6n + 5),
   .detailed-gallery__list li:nth-child(6n + 6),
   .detailed-gallery__list li:nth-child(6n + 7) {
@@ -5570,8 +5571,10 @@ strong {
   background-image: url("../img/img_background-detailed-form.png");
   background-repeat: no-repeat;
   background-size: cover;
-  -o-border-image: fill 0 linear-gradient(var(--img-background), var(--img-background));
-  border-image: fill 0 linear-gradient(var(--img-background), var(--img-background));
+  -o-border-image: fill 0
+    linear-gradient(var(--img-background), var(--img-background));
+  border-image: fill 0
+    linear-gradient(var(--img-background), var(--img-background));
 
   --img-background: rgba(0, 0, 0, 0.4);
 }
@@ -5749,7 +5752,6 @@ strong {
 }
 
 @media (min-width: 992px) {
-
   .booking-info__checkin,
   .booking-info__checkout {
     margin-bottom: 8px;
@@ -5866,7 +5868,6 @@ strong {
 }
 
 @media (min-width: 768px) {
-
   .paid-services__item img,
   .paid-services__item svg {
     width: 29px;
@@ -7321,7 +7322,6 @@ strong {
 }
 
 @media (min-width: 768px) {
-
   .card__item svg,
   .card__item img {
     width: 18px;
@@ -7331,7 +7331,6 @@ strong {
 }
 
 @media (min-width: 1200px) {
-
   .card__item svg,
   .card__item img {
     width: 22px;
@@ -7814,7 +7813,6 @@ strong {
 }
 
 @media (min-width: 768px) {
-
   .saved-search__top img,
   .saved-search__top svg {
     width: 21px;
@@ -7823,7 +7821,6 @@ strong {
 }
 
 @media (min-width: 1200px) {
-
   .saved-search__top img,
   .saved-search__top svg {
     width: 28px;
