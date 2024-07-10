@@ -24,26 +24,26 @@ async function registration(passwordInputSignup, email) {
     alert("Password must be more than 8 characters!");
     return;
   }
-  var raw = JSON.stringify({
+  let raw = JSON.stringify({
     email: email.value,
     password: passwordInputSignup.value,
   });
   console.log(raw);
 
   try {
-    const response = await fetch(url, {
+    const res = await fetch(url, {
       method: "POST",
-      headers: headers,
-      mode: "no-cors",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      // mode: "no-cors",
       body: raw,
       redirect: "follow",
     });
-    if (!response.ok) {
-      throw new Error(`Ошибка: ${response.statusText}`);
+    if (res.ok) {
+      alert("User successfully registrated!");
     }
-    const data = await response.json();
-    console.log("Регистрация прошла успешно:", data);
   } catch (error) {
-    console.error("Ошибка при регистрации:", error);
+    console.error(`Error cought: ${error}`);
   }
 }
